@@ -337,7 +337,7 @@ export default class Gantt {
         const lines_layer = createSVG('g', { append_to: this.layers.grid });
 
         const row_width = this.dates.length * this.options.column_width;
-        const row_height = this.options.bar_height + this.options.padding + 25;
+        const row_height = this.options.bar_height + this.options.padding;
 
         let row_y = this.options.header_height + this.options.padding / 2;
 

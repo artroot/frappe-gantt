@@ -35,7 +35,7 @@ const month_names = {
         'Noviembre',
         'Diciembre',
     ],
-    ua: [
+    uk: [
         'Січень',
         'Лютий',
         'Березень',
@@ -108,12 +108,12 @@ const month_names = {
 };
 
 const day_names = {
-    ua: ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+    uk: ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
     en: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 };
 
 const weekend = {
-    ua: ['Нд', 'Сб'],
+    uk: ['Нд', 'Сб'],
     en: ['Su', 'Sa']
 };
 

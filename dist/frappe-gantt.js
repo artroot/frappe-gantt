@@ -38,7 +38,7 @@ var Gantt = (function () {
             'Noviembre',
             'Diciembre',
         ],
-        ua: [
+        uk: [
             'Січень',
             'Лютий',
             'Березень',
@@ -111,12 +111,12 @@ var Gantt = (function () {
     };
 
     const day_names = {
-        ua: ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+        uk: ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
         en: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
     };
 
     const weekend = {
-        ua: ['Нд', 'Сб'],
+        uk: ['Нд', 'Сб'],
         en: ['Su', 'Sa']
     };
 
@@ -1381,7 +1381,7 @@ var Gantt = (function () {
             const lines_layer = createSVG('g', { append_to: this.layers.grid });
 
             const row_width = this.dates.length * this.options.column_width;
-            const row_height = this.options.bar_height + this.options.padding + 25;
+            const row_height = this.options.bar_height + this.options.padding;
 
             let row_y = this.options.header_height + this.options.padding / 2;
 
