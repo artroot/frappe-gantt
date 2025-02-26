@@ -1,6 +1,6 @@
 {
   "name": "@artroot/frappe-gantt",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "An update for https://github.com/frappe/gantt.git. A simple, modern, interactive gantt library for the web",
   "main": "src/index.js",
   "scripts": {
