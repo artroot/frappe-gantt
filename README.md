@@ -2,16 +2,13 @@
     <img src="https://github.com/frappe/design/blob/master/logos/logo-2019/frappe-gantt-logo.png" height="128">
     <h2>Frappe Gantt</h2>
     <p align="center">
-        <p>A simple, interactive, modern gantt chart library for the web</p>
-        <a href="https://frappe.github.io/gantt">
-            <b>View the demo »</b>
-        </a>
+        <p>An update for a simple, interactive, modern gantt chart library for the web from <a href="https://frappe.github.io/gantt">https://frappe.github.io/gantt</a>
     </p>
 </div>
 
 <p align="center">
     <a href="https://frappe.github.io/gantt">
-        <img src="https://cloud.githubusercontent.com/assets/9355208/21537921/4a38b194-cdbd-11e6-8110-e0da19678a6d.png">
+        <img src="https://repository-images.githubusercontent.com/937979985/10fe93d1-51f7-41bc-ba13-6cd921cad3c6">
     </a>
 </p>
 
@@ -56,6 +53,7 @@ var gantt = new Gantt("#gantt", tasks, {
     arrow_curve: 5,
     padding: 18,
     view_mode: 'Day',
+    language: 'uk',
     date_format: 'YYYY-MM-DD',
     custom_popup_html: null
 });
