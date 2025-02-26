@@ -14,7 +14,11 @@
 
 ### Install
 ```
-npm install frappe-gantt
+npm install @artroot/frappe-gantt
+```
+Use an alias if it's needed to overwrite existed frappe-gantt package:
+```
+npm install frappe-gantt@npm:@artroot/frappe-gantt
 ```
 
 ### Usage
